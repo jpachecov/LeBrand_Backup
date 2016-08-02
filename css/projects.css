@@ -1,0 +1,445 @@
+/*
+ * Estilos generales
+ */
+ .pg-1{
+ 	height: auto;
+ }
+ .pg-1 img{
+ 	display: block;
+	margin: 12em auto 0px;
+  margin-bottom: 21%;
+ }
+ .pg-2{
+  font-family: "GillSans", sans-serif;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+ .pg-2 h1{
+  font-family: "MarionR";
+ }
+ .pg-2 h1, .pg-2  h4{
+ 	text-align: center;
+ }
+ .pg-2 p{
+ 	/*width: 50%;*/
+	padding: 5%;
+ }
+
+  .pg-5 p{
+/*  width: 65%;*/
+  padding: 5%;
+ }
+
+  .pg-5{
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .pg-5 h1, .pg-5  h4{
+  text-align: center;
+ }
+
+ .pg-3{
+ 	padding: 0px !important;
+ }
+ .pg-3 img{
+ 	width: 100%;
+  height: auto;
+ }
+
+ .bold{
+	font-weight: bold;
+ }
+
+ /*
+  * Agroamericana
+  */
+  .pg-2-agroamericana{
+  	color: white;
+  	background-position: 0% 0%;
+    margin-top: 0%;
+  }
+  .pg-2-agroamericana h1{
+ 	margin-top: 15%;
+ }
+  .pg-2-agroamericana img{
+  	float: right;
+    width: 100%;
+    margin-top: -20%;
+  }
+
+  /*
+   * Fighter Town
+   */
+ .pg-2-fighter{
+ 	padding: 0px !important;
+ 	color: black;
+ 	margin-top: 0%;
+ 	background-position: 0% 0%;
+ }
+ .pg-2-fighter h1{
+ 	margin-top: 15%;
+ }
+ .pg-2-fighter p, .pg-2-fighter img{
+ 	float: left;
+ }
+ .pg-2-fighter .sign{
+ 	float: right;
+ 	margin-top: 15px;
+ }
+ .pg-2-fighter .icon{
+ 	margin-left: 8%;
+	margin-top: -13%;
+ }
+ .pg-2-fighter .foot{
+ 	margin-top: -10%;
+ }
+
+ /*
+  * Sun Slice
+  */
+  .pg-2-sun{
+  	color: white;
+  	padding-bottom: 20%;
+  	margin-top: 0%;
+  }
+  .pg-2-sun h1{
+  	margin-top: 15%;
+  }
+  .sun-middle img{
+
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -28%;
+  width: 100%;
+  }
+
+/*
+ * JLTC
+ */
+ .pg-2-jltc{
+   	color: white;
+   	margin-top: 0%;
+ }
+ .pg-2-jltc h1{
+ 	margin-top: 15%;
+ }
+ .pg-2-jltc .icon{
+	margin-right: 10%;
+	float: right;
+ }
+ .pg-2-jltc .center-img{
+ 	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+ }
+ .jltc-middle img{
+ 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -15%;
+ }
+
+ /*
+  * Amerivacs
+  */
+  .pg-2-ameri{
+  	color: white;
+  }
+  .pg-2-ameri h1{
+  	margin-top: 15%;
+  }
+
+
+  .pg-2-ameri .center-img{
+ 	  width: 100%;
+	   display: block;
+ }
+
+
+  /*
+  * Chapital
+  */
+  .pg-2-chapital{
+    color: white;
+    padding-bottom: 10%;
+    margin-top: 0%;
+  }
+  .pg-2-chapital h1{
+    margin-top:13%;
+  }
+
+  .chapital-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -145%;
+  width: 38%;
+  }
+
+
+/*
+  * Tulum
+  */
+  .pg-2-tulum{
+    color: white;
+    padding-bottom: 10%;
+    margin-top: 0%;
+    background-image: url('../img/work/tulum/background_000-1.png');
+    background-position: 0% 0%;
+  }
+  .pg-2-tulum h1{
+    margin-top: 22%;
+  }
+
+  .tulum-middle img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15%;
+  }
+
+
+/*
+  * Ah_Musen_Kab
+  */
+  .pg-2-ah_Musen{
+    color: white;
+    padding-bottom: 10%;
+    margin-top: 0%;
+  }
+  .pg-2-ah_Musen h1{
+    margin-top: 15%;
+  }
+
+  .ah_Musen-middle img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -35%;
+  }
+.ah_Musen-middle{
+  margin-top: -52%;
+}
+/*
+  * Elsa_Elena
+  */
+  .pg-2-elsa_Elena{
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 0%;
+    background-image: url(../img/work/elsa_Elena/background_000.png);
+    text-align: center;
+    margin-top: 8%;
+    height: 101em;
+  }
+  .pg-2-elsa_Elena h1{
+    margin-top: 30%;
+  }
+
+  .elsa_Elena-middle img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2%;
+  }
+
+
+  /*
+  * Centennial_Organics
+  */
+  .pg-2-centennial_Organics{
+    color: white;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-top: 0%;
+  }
+  .pg-2-centennial_Organics h1{
+    margin-top: 15%;
+  }
+
+  .centennial_Organics-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -43%;
+  }
+
+
+  /*
+  * Agora
+  */
+  .pg-2-agora{
+    color: white;
+    padding-bottom: 10%;
+    text-align: center;
+    margin-top: 0%;
+  }
+  .pg-2-agora h1{
+    margin-top: 15%;
+  }
+
+  .agora-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -20%;
+  }
+
+/*
+  *Marmoline
+   */
+  .pg-2-marmoline{
+    color: white;
+    padding-bottom: 3%;
+    background-position: 0% 0%;
+    text-align: center;
+    margin-top: 0%;
+  }
+  .pg-2-marmoline h1{
+    margin-top: 15%;
+  }
+
+  .marmoline-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -60.5%;
+  }
+
+
+/*
+  *  aimalaion
+   */
+
+.pg-aimalaion{
+  margin-top: -2%;
+}
+  .pg-2-aimalaion h1{
+    margin-top: 20%;
+  }
+
+  .aimalaion-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -120%;
+  }
+
+/*
+  *
+  *CDM
+   */
+  .pg-2-cmx{
+    color: white;
+    padding-bottom: 10%;
+    background-position: 0% 0%;
+    text-align: center;
+    margin-top: 0%;
+  }
+  .pg-2-cmx h1{
+    margin-top: 15%;
+  }
+
+  .cmx-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -62%;
+  }
+
+/*
+  *
+  *Vintage
+   */
+  .pg-2-vintage{
+    color: black;
+    padding-bottom: 25%;
+    background-position: 0% 0%;
+    text-align: center;
+    margin-top: 0%;
+  }
+  .pg-2-vintage h1{
+    margin-top: 15%;
+  }
+
+  .vintage-middle img{
+   display: block;
+  margin-left: auto;
+  margin-top: -7%;
+  width: 100%;
+}
+.revista{width: 72%;
+margin-left: 5%;
+transform: translateX(0px);
+margin-top: -59%;
+
+}
+
+.letstart_button{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 25px;
+
+}
+
+.letstart_button span{
+  display: block;
+  padding: 1%;
+  border-radius: 6px;
+  border: solid 1px;
+}
+
+.letstart_button:hover{
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+
+
+.allWidth {
+  width: 100%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+
+.texto_amerivacs{
+  text-align: justify;
+  font-family: "GillSans",sans-serif;
+  letter-spacing: 2px;
+  font-size: small;
+  line-height: 25px;
+
+}
+
+
+.titulo{
+  font-family: 'MarionR'; 
+  font-size: 4em;
+}
+.subti{
+  font-family: "GillSans",sans-serif;
+  letter-spacing: 2px;
+}
+
+.text_project{
+  font-family: "GillSans",sans-serif;
+  letter-spacing: 2px;
+  font-size: small;
+  line-height: 25px;
+}
+
+.noRotate{
+  -ms-transform: skewY(6deg) ; /* IE 9 */
+    -webkit-transform: skewY(6deg) ; /* Chrome, Safari, Opera */
+    transform: skewY(6deg) ;
+}
+
+.siRotate{
+  -ms-transform: skewY(-6deg) ; /* IE 9 */
+    -webkit-transform: skewY(-6deg) ; /* Chrome, Safari, Opera */
+    transform: skewY(-6deg) ; 
+}

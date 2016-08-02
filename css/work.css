@@ -1,0 +1,30 @@
+.img-grid img{
+	width: 100%;
+	height: 100%;
+}
+.grid-md, .img-grid{
+	padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+}
+
+
+.grid-md:hover{
+	opacity: 1;
+}
+
+
+.two-img{
+  position: relative;
+  float: left;
+  width: 50% !important;
+}
+
+.two-img > img{
+  width: 100%;
+  height: 100%;
+}
+
+.img-vertical{
+  position: relative;
+}

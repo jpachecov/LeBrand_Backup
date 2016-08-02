@@ -1,0 +1,149 @@
+body{
+	font-family: "GillSans", sans-serif;
+}
+
+.clear{
+	padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+}
+.img-contact{
+	width: 100%;
+}
+.little-border-black{
+	border-top: 5px solid black;
+    display: block;
+    width: 35px;
+}
+.little-border-white{
+	border-top: 5px solid white;
+	display: block;
+	width: 50px;
+}
+.data{
+	padding: 3% 3% 0px 3% !important;
+	box-sizing: border-box;
+	color: black;
+}
+.data h3{
+	margin-top: 10px;
+	font-weight: normal;
+}
+.black{
+	font-weight: bold;
+}
+.separete{
+	margin-bottom: 5% !important;
+}
+.title{
+	text-align: right;
+    background: black none repeat scroll 0% 0%;
+    color: white;
+    box-sizing: border-box;
+    margin: 0px;
+    height: 80px;
+    line-height: 80px;
+    padding-right: 35px;
+    font-family: "Marion", sans-serif;
+    font-weight: bold;
+}
+.black-div{
+	background: black;
+	color: white;
+	padding: 2% 13% 0% 2% !important;
+}
+.black-div p{
+	margin: 5% 0px;
+}
+
+/*Formulario*/
+.form-contact label, .form-contact input, .form-contact textarea{
+	display: block;
+	width: 100%;
+	resize: none;
+}
+.form-contact input{
+	color:black;
+}
+.form-contact{
+	padding-bottom: 0%;
+}
+.footer-black{
+	background: black;
+	color: white;
+	text-align: center;
+}
+.footer-black a{
+	color:white;
+	text-decoration: none;
+}
+.footer-black a:hover{
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.footer-black .center-div{
+	width: 30%;
+	margin: 1% auto;
+}
+.footer-black span{
+	padding: 10px;
+}
+
+.box{
+	border-radius: 0%;
+}
+
+.form-contact > label{
+	margin-top: 5%;
+	font-weight: bold !important;
+}
+
+#area_texto{
+	height: 130px;
+}
+
+form-control{
+    border: none;
+    border-bottom: 1px solid #333;
+}
+button p {
+  margin:0;
+}
+button{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding: 2px 30px;
+  	background-color: black;
+  	border: none;
+  	border-radius: 4px;
+	color:white;
+  	cursor:pointer;
+    	margin-bottom: 30px;
+}
+textarea{
+	height: 95px !important;
+}
+
+#boton_form{
+	float: right;
+	font-size: 20px;
+	border-radius: 0%;
+	border: solid 1px;
+}
+
+#boton_form:hover{
+	float: right;
+	font-size: 20px;
+	border-radius: 0%;
+	border: solid 1px;
+	background-color: white;
+	color: black;
+	opacity: 0.8;
+}
+
+#color_text{
+
+	color: black;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LeBrand</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/logo_menu.png"/>
+
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/template.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/errores.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body onload="init_lang('contact')">
+    <div id='menu'>
+        <a id='logo' href="index.html"></a><!--
+      --><ul id="menu-anim" class='menu'>
+        <li onclick="window.location.href='index.html'">
+          <a class="m-ph1">PORTFOLIO</a>
+        </li><!--
+      --><li onclick="window.location.href='about_us.html'">
+          <a class="m-ph2">ABOUT US</a>
+        </li><!--
+      --><li onclick="window.location.href='work.html'">
+          <a class="m-ph3">WORK</a>
+        </li><!--
+      --><li onclick="window.location.href='contact.html'">
+          <a class="m-ph4">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id='menu2' style='display:none'>
+        <a id='logo'></a><!--
+        --><ul id="menu-anim2" class='menu2'>
+        <li onclick="window.location.href='index.html'">
+          <a class="m-ph1">PORTFOLIO</a>
+        </li><!--
+        --><li onclick="window.location.href='about_us.html'">
+          <a class="m-ph2">ABOUT US</a>
+        </li><!--
+        --><li onclick="window.location.href='work.html'">
+          <a class="m-ph3">WORK</a>
+        </li><!--
+        --><li onclick="window.location.href='contact.html'">
+          <a class="m-ph4">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+  <div class='container' style='padding:0%; margin:0%; width:100%'>
+    <div class='col-md-12 col-xs-12 col-sm-12 nopadding' style='padding:0%;'>
+
+      <div  class='col-md-4 col-sm-3 col-xs-12 nopadding' style='float:left;padding:0%; height:65px'></div>
+
+      <div  class="row clear col-md-8 col-sm-9 col-xs-12" style='float:left'>
+        <h1 class="title cph1">We'd love to hear from you.</h1>
+      </div>
+      
+    </div>
+  </div>
+
+
+	<div class="row clear">
+		<div class="col-md-7 grid clear">
+			<img src="img/contacto/foto_florencia.png" class="img-contact">
+		</div>
+		<div class="col-md-5 grid clear data">
+			<span class="little-border-black"></span>
+			<h3 class='cph2'>Studios.</h3>
+			<div class="row clear separete">
+				<h4 class="black cph3">Italy</h4>
+				<p class="cph4">
+					<span class="black">Alexander Tadlock - </span> General Manager
+				</p>
+				<p>
+					<span class="black">alexander</span>@lebrandcapital.com
+				</p>
+				<p>
+					+(39) 055 294680
+				</p>
+				<p>
+					Borgio degli Albizi # 10, Florence. It
+				</p>
+			</div>
+			<div class="row clear">
+				<h4 class="black cph5">Mexico</h4>
+				<p class="cph6">
+					<span class="black">Enrique Hinzpeter - </span> General Manager
+				</p>
+				<p>
+					<span class="black">enrique</span>@lebrandcapital.com
+				</p>
+				<p>
+					+(52) 222 1234567
+				</p>
+				<p class="cph7">
+          Heriberto Frias 1162, Col. del Valle, Ciudad de México
+        </p>
+			</div>
+		</div>
+	</div>
+	<div class="row clear" style="background-color:black">
+		
+    <div class="col-md-7 grid clear" style='float:right'>
+      <img src="img/contacto/foto_cdmx.png" class="img-contact">
+    </div>
+    <div class="col-md-5 grid clear black-div form" style='float:right'>
+			<span class="little-border-white"></span>
+			<h3 class="cph8">About your project.</h3>
+			<p class="cph9">
+				For general enquiries or anything you'd like to discuss, please contact us here.
+			</p>
+			<div class="form-contact">
+				<label class="cph10">Name.</label>
+
+				<input name="nombre" type="text" id="nombre" class="form-control box">
+				<p id="error_nombre"></p>
+				<label class="cph11">E-mail.</label>
+				<input name="correo" type="email" id="correo"  class="form-control box" value="">
+				<p id="error_correo"></p>
+				<label class="cph12">Message.</label>
+
+				<textarea name="mensaje" cols="40" rows="5"  class="form-control box" id = "comentario"></textarea>
+				<p id="error_mensaje"></p>
+  				<button id="boton_form"  onclick="valida_datos();">
+  					<p  class="cph13">Send</p>
+  				</button>
+			</div>
+		</div>
+
+
+	</div>
+
+    <div class="footer">
+      <img src="img/le_brand_title.png" class="title-png">
+      <h4>Empowering visual capital.</h4>
+      <div class="icon">
+        <a href="https://web.facebook.com/lebrandcapital/">
+          <img src="img/footer/icono-1_000.png" alt="">
+        </a>
+        <a href="https://web.facebook.com/lebrandcapital/" class="glyphicon glyphicon-search" style="font-size:22px; position:relative; top:8px">
+        </a>
+        
+      </div>
+      <div class="last col-sm-12 container-fluid">
+        <div class='col-sm-12 col-md-4'>
+          <a id='eng_len' style="border-right:solid" onclick="translate_page('contact', 'en')">ENGLISH</a>
+          <a id='es_len' style="padding-left: 0.9%" onclick="translate_page('contact', 'es')">ESPAÑOL</a>
+        </div>
+        <div class="info col-sm-12 col-md-4">
+
+          <span>
+            BRANDING
+          </span>
+          <span>
+            INFORMATION DESIGN
+          </span>
+          <span>
+            MARKETING
+          </span>
+
+
+        </div>
+        <div class="f-ph5 col-sm-12 col-md-4">
+          © 2016 Le Brand capital. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+
+</body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/menuAnimado.js"></script>
+<script src="js/menuAnimado_2.js"></script>
+<script src="js/verificaMenu.js"></script>
+<script src="js/translate.js"></script>
+<script type='text/javascript' src='js/formulario.js'></script>
+
+<script src="js/contact.js" type="text/javascript"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</html>
